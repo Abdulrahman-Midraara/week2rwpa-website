@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.8rem 1rem;
+    margin: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #f5f5f5;
+  }
+  
+  section .inner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      section .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 01.8rem 1rem;
+        margin: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        background-color: #ffffff;
+      }
+
+      section .inner h3 {
+        display: none;
+      }
+      
+      section .inner img {
+        width: 100%;
+        height: 100%;
+      }
+
+      section .inner img {
+        margin-bottom: 0px;
+      }
+      
+
+  }
+
+  @media screen and (min-width: 1024px) {
+      body {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      }
+      
+      section .inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 01.8rem 1rem;
+        margin: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        background-color: #f5f5f5;
+      }
+      
+      section .inner img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+      }
+
+
+  }
