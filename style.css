@@ -387,6 +387,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        max-width: 100%; 
+        /* I forgot to call the max-width: 100%; */
+
       }
 
       /* Header */
@@ -414,6 +417,25 @@
         justify-content: space-between;
         margin-top: 0px; 
       }
+
+      .taste .textArea {
+        width: fit-comtent;
+        padding: 10px 5px;
+      }
+      
+      .taste .textArea p, .taste .textArea h1 {
+        margin: 10px;
+      }
+
+        /* in the Hero Area, I forgot to call the following;
+        1.     .taste .textArea {
+                width:fit-comtent;
+                padding:10px 5px;
+                }
+        2.      .taste .textArea p, .taste .textArea h1, {
+                 margin:10px;
+                 }
+       */
 
       #heroImage {
         display: inline-block;
